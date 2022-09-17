@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+	<!-- bean definitions here -->
+ 
+ 
+ 
+	<bean id="person" class="pojo.Person">
+		<property name="pid" value="11"></property>
+		<property name="age" value="25"></property>
+ 
+		<property name="mobiles">
+			<map>
+			<entry key="9995554444" value="Apple"></entry>
+			<entry key="9995553333" value="SAMSUNG"></entry>
+			<entry key="9995552222" value="HAUWAI"></entry>
+			</map>
+		</property>
+ 
+	</bean>
+ 
+</beans>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Abstract/src"/>
+	<classpathentry kind="src" path="array"/>
+	<classpathentry kind="src" path="Basic"/>
+	<classpathentry kind="src" path="class"/>
+	<classpathentry excluding="p1/" kind="src" path="Exception/src"/>
+	<classpathentry kind="src" path="Exception/src/p1"/>
+	<classpathentry kind="src" path="If Else"/>
+	<classpathentry kind="src" path="inheritance/src"/>
+	<classpathentry kind="src" path="loop/for"/>
+	<classpathentry kind="src" path="loop/switch"/>
+	<classpathentry kind="src" path="loop/while"/>
+	<classpathentry kind="src" path="new class assignment"/>
+	<classpathentry kind="src" path="object oriented programe/src"/>
+	<classpathentry kind="src" path="package/src"/>
+	<classpathentry kind="src" path="Practise"/>
+	<classpathentry kind="src" path="toString/src"/>
+	<classpathentry kind="output" path="Abstract/bin"/>
+</classpath>

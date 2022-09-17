@@ -1,0 +1,30 @@
+package model;
+
+public class Empolyee {
+
+	private String name;
+
+	public Empolyee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+
+
+public void displayEmpolyee() {
+	
+	System.out.println("Name is "+name);
+	
+	}
+
+	
+	
+}

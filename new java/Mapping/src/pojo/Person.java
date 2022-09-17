@@ -1,0 +1,70 @@
+package pojo;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Person {
+
+	private int pid;
+	private int age;
+	private Map<String, String> mobiles;
+	
+	public Person() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Map<String, String> getMobiles() {
+		return mobiles;
+	}
+
+	public void setMobiles(Map<String, String> mobiles) {
+		this.mobiles = mobiles;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [pid=" + pid + ", age=" + age + ", mobiles=" + mobiles + "]";
+	}
+	
+	public void displayPerson()
+	{
+		System.out.println("Id  " + pid);
+		
+		System.out.println("Age  " + age);
+ 
+		Set entries = mobiles.entrySet();
+ 
+		Iterator itr = entries.iterator();
+		
+		System.out.println("MOBILE N0    Brand");
+		
+		while (itr.hasNext()) {
+ 
+			Map.Entry ent = (Map.Entry) itr.next();
+			
+			System.out.println(ent.getKey() + "   " + ent.getValue());
+ 
+		}
+
+	}
+	
+	
+}

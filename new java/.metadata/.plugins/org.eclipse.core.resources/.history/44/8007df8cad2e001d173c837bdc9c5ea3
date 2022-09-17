@@ -1,0 +1,16 @@
+package pojo;
+
+import java.util.List;
+import java.util.Map;
+
+public class Person {
+
+	private int pid;
+	private int age;
+	private Map<String, String> mobiles;
+	
+	private void Person() {
+		// TODO Auto-generated method stub
+
+	}
+}

@@ -1,0 +1,17 @@
+package App;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import Model.Student;
+
+public class Test {
+	
+	// IOC
+	ApplicationContext ctx=new ClassPathXmlApplicationContext("spring.xml");
+	Student student=(Student)ctx.getBean("stud");
+   System.out.println(student);
+}
+
+
+
